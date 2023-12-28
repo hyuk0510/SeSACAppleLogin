@@ -49,6 +49,7 @@
 		D852A8E22B3D02A6005C61C5 /* SeSACAppleLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSACAppleLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D852A8E62B3D02A6005C61C5 /* SeSACAppleLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAppleLoginUITests.swift; sourceTree = "<group>"; };
 		D852A8E82B3D02A6005C61C5 /* SeSACAppleLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAppleLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D852A8F52B3D0C1E005C61C5 /* SeSACAppleLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSACAppleLogin.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		D852A8C42B3D02A3005C61C5 /* SeSACAppleLogin */ = {
 			isa = PBXGroup;
 			children = (
+				D852A8F52B3D0C1E005C61C5 /* SeSACAppleLogin.entitlements */,
 				D852A8C52B3D02A3005C61C5 /* AppDelegate.swift */,
 				D852A8C72B3D02A3005C61C5 /* SceneDelegate.swift */,
 				D852A8C92B3D02A3005C61C5 /* ViewController.swift */,
@@ -440,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSACAppleLogin/SeSACAppleLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AM9D6522QR;
@@ -468,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSACAppleLogin/SeSACAppleLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AM9D6522QR;
