@@ -34,6 +34,11 @@ class ViewController: UIViewController {
         appleLoginButton.addTarget(self, action: #selector(appleLoginButtonPressed), for: .touchUpInside)
     }
     
+    @IBAction func faceIDButtonClicked(_ sender: UIButton) {
+        AuthenticationManager.shared.auth()
+    }
+    
+    
     @objc
     func appleLoginButtonPressed() {
         

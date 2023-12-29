@@ -16,6 +16,7 @@
 		D852A8DD2B3D02A6005C61C5 /* SeSACAppleLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852A8DC2B3D02A6005C61C5 /* SeSACAppleLoginTests.swift */; };
 		D852A8E72B3D02A6005C61C5 /* SeSACAppleLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852A8E62B3D02A6005C61C5 /* SeSACAppleLoginUITests.swift */; };
 		D852A8E92B3D02A6005C61C5 /* SeSACAppleLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852A8E82B3D02A6005C61C5 /* SeSACAppleLoginUITestsLaunchTests.swift */; };
+		D852A93D2B3E634C005C61C5 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D852A93C2B3E634C005C61C5 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D852A8E62B3D02A6005C61C5 /* SeSACAppleLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAppleLoginUITests.swift; sourceTree = "<group>"; };
 		D852A8E82B3D02A6005C61C5 /* SeSACAppleLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAppleLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D852A8F52B3D0C1E005C61C5 /* SeSACAppleLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSACAppleLogin.entitlements; sourceTree = "<group>"; };
+		D852A93C2B3E634C005C61C5 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				D852A8CE2B3D02A6005C61C5 /* Assets.xcassets */,
 				D852A8D02B3D02A6005C61C5 /* LaunchScreen.storyboard */,
 				D852A8D32B3D02A6005C61C5 /* Info.plist */,
+				D852A93C2B3E634C005C61C5 /* AuthenticationManager.swift */,
 			);
 			path = SeSACAppleLogin;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D852A8CA2B3D02A3005C61C5 /* ViewController.swift in Sources */,
+				D852A93D2B3E634C005C61C5 /* AuthenticationManager.swift in Sources */,
 				D852A8C62B3D02A3005C61C5 /* AppDelegate.swift in Sources */,
 				D852A8C82B3D02A3005C61C5 /* SceneDelegate.swift in Sources */,
 			);
