@@ -5,6 +5,13 @@
 //  Created by 선상혁 on 2023/12/28.
 //
 
+/*
+ 1. Build Configuration : Debug Release
+ */
+
+
+
+
 import UIKit
 import AuthenticationServices
 
@@ -24,6 +31,14 @@ class MainViewController: UIViewController {
     }
 }
 
+/*
+ - Build Configuration / CrashLog
+ 
+ Appstore Reject App CrashLog .txt File
+ .txt -> .crash
+ Device and Simulator > View Console Log > Open Xcode Project
+ */
+
 class ViewController: UIViewController {
 
     @IBOutlet var appleLoginButton: ASAuthorizationAppleIDButton!
@@ -32,6 +47,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         appleLoginButton.addTarget(self, action: #selector(appleLoginButtonPressed), for: .touchUpInside)
+        
+        
+        guard let configuration = Bundle.main.object(forInfoDictionaryKey: "CFBundleIdentifier") as? String else {
+            print("configuration info error")
+            return
+        }
+        
+        if configuration == "com.Sun.SeSACAppleLoginPremium" {
+            view.backgroundColor = .gray
+        } else {
+            view.backgroundColor = .green
+        }
     }
     
     @IBAction func faceIDButtonClicked(_ sender: UIButton) {
